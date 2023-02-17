@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Main.js" defer></script> <!---- Use defer so script runs after HTML is loaded so can use DOM manipulation -->
+
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+ 
+    <header>
+      <h1 id ="title">Etch-a-Sketch</h1>
+      </header>
+  <div class="body_Container">
+    
+    <div id ="mid">
+        <div id="settings">
+          <button class="settings_Button" id ='color'>Color mode</button>
+          <button class="settings_Button" id = 'rainbow'>Rainbow mode</button>
+          <button class="settings_Button" id='eraser'>Eraser</button>
+          <button class="settings_Button" id="clear">Clear</button>
+          <p id = 'sizes_Title'>Sizes</p>
+           
+          
+          <div class="settings_Button"id="sizing_Space">
+             <button class="settings_Button" id="small">16x16</button>
+             <button class="settings_Button" id ='med'>32x32</button>
+             <button class="settings_Button" id="large">64x64</button>
+             <button class="settings_Button" id="stupid">DONT CLICK:)</button>
+             
+              
+            </div>
+          
+        </div>
+        <div id="etch_Body"> <!--THIS IS THE CONTAINER OF THE BLOCK DIVS-->
+
+
+        </div>
+    </div>
+
+  </div>
+  
+  
+
+</body>
+</html>
