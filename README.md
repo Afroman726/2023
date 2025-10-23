@@ -1,1 +1,1 @@
-This is a basic file to practice HTML, CSS, and JS....cuz im lazy and i stopped coding and completly forgot how to do stuff >.< 
+This is a basic file to practice HTML, CSS, and JS
